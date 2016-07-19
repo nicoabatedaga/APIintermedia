@@ -23,7 +23,7 @@ class UrlMappings {
             action = [POST:"save" , GET:"getAll"]
         }
 
-        "/"(view:"/index")
+        //"/"(view:"/index")
         "500"(view:'/error')
 	}
 }
